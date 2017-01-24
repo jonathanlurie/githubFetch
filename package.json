@@ -1,0 +1,15 @@
+{
+  "name": "github-fetch",
+  "version": "1.0.0",
+  "description": "goes to every repo of a list of user and looks for a .ghfetch file to build a list of shared repo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Lurie",
+  "license": "MIT",
+  "dependencies": {
+    "github": "^8.1.1",
+    "js-yaml": "^3.7.0"
+  }
+}
